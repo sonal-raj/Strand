@@ -1,7 +1,7 @@
 Strand
 ======
 
-A Java library for Random String operations. Its like Random of the util package, but here you deal with Strings instead of Numbers.
+A Java library for Random String operations. Its like Random of the `util` package, but here you deal with Strings instead of Numbers.
 
 # ![](http://wissrech.ins.uni-bonn.de/misc/java/java.gif "Java")
 
