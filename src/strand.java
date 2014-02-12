@@ -4,6 +4,6 @@
  * and detailed guidelines are mentioned in the manual.txt file.
  *
  * Author: Sonal Raj
- * 
+ * Use: "import strand"
  */
 
