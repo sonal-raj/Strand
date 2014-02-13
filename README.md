@@ -5,15 +5,15 @@ A Java library for Random String operations. Its like Random of the `util` packa
 
 # ![](http://wissrech.ins.uni-bonn.de/misc/java/java.gif "Java")
 
-## Requirements
+### Requirements
 * Java v6+
 
-## Installation 
+### Installation 
 __How to use this module in your project__
 * Keep the file in your project folder and `import` locally
 * Copy the source files to your java installation directory and make it available globally.
 
-## Demo 
+### Demo 
 
 ### Sample Code for using Strand
 ```java
@@ -26,8 +26,9 @@ class demo {
 }
 ```
 
-##Bugs/Suggestions
+### Bugs/Suggestions
 Any suggestions are welcome and bug reports are appreciated. Drop in a mail at sonalraj1990@gmail.com
 
+### Changelog
 
 
