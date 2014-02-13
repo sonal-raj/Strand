@@ -15,7 +15,7 @@ __How to use this module in your project__
 
 ### Demo 
 
-### Sample Code for using Strand
+##### Sample Code for using Strand
 ```java
 import strand
 class demo {
