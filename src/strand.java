@@ -7,15 +7,50 @@
  * Use: "import strand"
  */
 
-import java.math.Random;
+
+/*#########################################################################*/
+/*#########################################################################*/
+			//CODE IS UNDER GUIDE REVIEW. WILL BE UPDATED SOON.
+/*#########################################################################*/
+/*#########################################################################*/
+import java.util.Random;
 //Main controller class for the random String Generator
 public class strand
 {
+	//static char[] alpha = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+	//static char[] alphanum = "abcdefghijklmnopqrstuvwxyz0123456789".toCharArray();
+	//Global  object of the randon class to be created when theobject of this class
+	//is created.
 	//generate random string of any length, alphabets only
+	public static String rand()
+	{
+		Random random = new Random();
+
+		//generate a random Length
+		int len = random.nextInt();
+		char[] alpha = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+
+		StringBuilder str = new StringBuilder();
+		for(int i=0;i<len;i++)
+			str.append(alpha[random.nextInt(alpha.length)]);
+		return str.toString();
+	}
 
 	//generate random string of any length, alphabets only, no spaces
 
 	//generate random string of specified length, alphabets only
+	public static String rand(int len)
+	{
+		Random random = new Random();
+
+		//generate a random Length
+		char[] alpha = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+
+		StringBuilder str = new StringBuilder();
+		for(int i=0;i<len;i++)
+			str.append(alpha[random.nextInt(alpha.length)]);
+		return str.toString();
+	}
 
 	//generate random string of any length, all ASCII
 
@@ -25,5 +60,12 @@ public class strand
 
 	//generate random string of specified Length, all Unicode
 
-	//
+	//############# TESTING OF THE PACKAGE ###################
+	public static void main(String[] args) {
+		System.out.println(rand(5));
+		System.out.println(rand(10));
+		System.out.println(rand(20));
+		System.out.println(rand(40));
+		System.out.println(rand(100));
+	}
 }
