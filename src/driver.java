@@ -11,6 +11,7 @@ class driver
 {
 	public static void main()
 	{
+		//demo
 		strand s = new strand();
 		System.out.println(s.rand());
 	}
