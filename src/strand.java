@@ -86,7 +86,7 @@ public class strand
 
 	//generate random string of specified Length, all Unicode
 
-	//############# TESTING OF THE PACKAGE ###################
+	//############# TEST DRIVER OF THE PACKAGE ###################
 	public static void main(String[] args) {
 		System.out.println(rand(5));
 		System.out.println(rand(10));
